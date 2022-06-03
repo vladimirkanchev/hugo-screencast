@@ -1,0 +1,9 @@
+baseURL = "http://ai-web-scraping-duke.s3-website.eu-north-1.amazonaws.com/"
+languageCode = "en-us"
+title = "Hugo AWS CD"
+theme = "project/ananke"
+[[deployment.targets]]
+# An arbitrary name for this target.
+name = "awsbucket"
+URL = "s3://ai-web-scraping-duke/?region=eu-north-1"
+
